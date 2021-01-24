@@ -15,7 +15,7 @@ import (
 
 	"gopkg.in/vrecan/death.v3"
 
-	"github.com/tensor-programming/golang-blockchain/blockchain"
+	"github.com/sonataruby/smart-blockchain/blockchain"
 )
 
 const (

@@ -13,7 +13,7 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/tensor-programming/golang-blockchain/wallet"
+	"github.com/sonataruby/smart-blockchain/wallet"
 )
 
 type Transaction struct {
