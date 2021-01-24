@@ -1,6 +1,14 @@
 package main
 
+import (
+	"os"
+
+	"github.com/tensor-programming/golang-blockchain/cli"
+)
+
 func main() {
-	cli := CLI{}
-	cli.Run()
+	defer os.Exit(0)
+
+	cmd := cli.CommandLine{}
+	cmd.Run()
 }
