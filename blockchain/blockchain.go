@@ -16,7 +16,7 @@ import (
 )
 
 const (
-	dbPath      = "./../data/blocks_%s"
+	dbPath      = "./data/blocks_%s"
 	genesisData = "First Transaction from Genesis"
 )
 
